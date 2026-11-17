@@ -1,0 +1,46 @@
+# Java e saidas de compilacao
+**/*.class
+**/out/
+**/bin/
+**/target/
+**/build/
+
+# Cache do Gradle. O Wrapper completo deve ser versionado.
+**/.gradle/
+!**/gradlew
+!**/gradlew.bat
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
+
+# Dados locais de execucao
+**/ranking.json
+**/ranking-solid-exercicio10.json
+**/*.mv.db
+**/*.trace.db
+**/*.lock.db
+**/*.log
+
+# Android SDK e assinaturas locais
+**/local.properties
+**/.cxx/
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+**/*.key
+
+# Segredos locais; exemplos sem segredos sao permitidos
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# IDE e sistema
+**/.idea/
+**/.vscode/
+**/.settings/
+**/.project
+**/.classpath
+**/*.iml
+**/.DS_Store
+**/Thumbs.db
